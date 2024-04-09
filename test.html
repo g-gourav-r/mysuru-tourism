@@ -1,544 +1,423 @@
-
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta content="width=device-width, initial-scale=1.0" name="viewport">
-      <title>Mysuru</title>
-      <!-- Favicons -->
-      <link href="assets/img/favicon.ico" rel="icon">
-      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-      <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-      <!-- Vendor CSS Files -->
-      <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-      <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-      <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-      <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-      <!-- Template Main CSS File -->
-      <link href="assets/css/style.css" rel="stylesheet">
-   </head>
-   <body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Video Background</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    #video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+    #content {
+        position: relative;
+        z-index: 1;
+        padding: 20px;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
 
-      <!-- ======= Hero Section ======= -->
-      <section id="hero" class="d-flex flex-column justify-content-center">
-         <div class="container" data-aos="zoom-in" data-aos-delay="100">
-            <h1>NAMMA MYSURU</h1>
+<video id="video-background" autoplay muted loop>
+    <source src="./img/hero-video.mp4  " type="video/mp4">
+    <!-- Add other video sources here if needed -->
+    Your browser does not support HTML5 video.
+</video>
+
+<div id="content">
+    <!-- Your content here -->
+    <h1>Welcome to My Website</h1>
+    <p>This is some content on top of the video background.</p>
+</div>
+<div class="content-wrapper rounded mx-auto">
+   <div data-aos="fade-down" class="border rounded p-2 mb-4" id="about">
+     <center>
+       <div class="heading col-md-4 rounded">
+         <h3 class="p-2 m-4 d-flex justify-content-center">Namma Mysuru</h3>
+       </div>
+     </center>
+     <p>
+       Mysuru, also known as Mysore, is a historic city in the southern state
+       of Karnataka, India. Renowned for its rich cultural heritage, palaces,
+       and festivities, Mysuru was once the capital of the Kingdom of Mysore,
+       ruled by the Wadiyar dynasty. It is famous for its grand Mysore
+       Palace, a magnificent architectural marvel that attracts tourists from
+       around the world.
+       <br /><br />
+       In addition to its palaces, Mysuru is known for its vibrant Dasara
+       festival, celebrated with grandeur and pomp, featuring processions,
+       cultural performances, and illuminated streets. The city is also a
+       center for traditional crafts such as silk weaving and sandalwood
+       carving.
+       <br /><br />
+       Mysuru boasts several other attractions including the Chamundi Hill
+       with its ancient Chamundeshwari Temple, the tranquil Brindavan
+       Gardens, and the historic St. Philomena's Cathedral.
+       <br /><br />
+       Today, Mysuru is a bustling city with a blend of tradition and
+       modernity, offering visitors a glimpse into its rich cultural past
+       while embracing the conveniences of contemporary life.
+     </p>
+   </div>
+   <div data-aos="fade-down" class="border rounded p-2 mb-4" id="reach">
+     <center>
+       <div class="heading col-md-4 rounded">
+         <h3 class="p-2 m-4 d-flex justify-content-center">
+           How to reach ?
+         </h3>
+       </div>
+     </center>
+     <p>
+       Mysore is one of the more well-connected cities in Karnataka and is
+       accessible through road, rail and air. Although Mysore has its own
+       airport, it is not fully functional and doesn't connect to all major
+       cities. So tourists can access Mysore through the Bangalore airport
+       (170km). Getting on a train to the Mysore railway station is a very
+       convenient way of travel as daily trains ply here. Bus services are
+       also regularly running and finding a seat is never a problem.
+     </p>
+     <div class="row rounded justify-content-between">
+       <div class="col-md-6">
+         <div
+           class="map-card mb-3 border rounded d-flex align-items-center p-3"
+           data-aos="fade-right"
+           style="position: relative; overflow: hidden"
+         >
+           <iframe
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124739.88290221959!2d76.62950476936642!3d12.307614533614867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf70381d572ef9%3A0x2b89ece8c0f8396d!2sMysuru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1712502935403!5m2!1sen!2sin"
+             width="100%"
+             height="100%"
+             style="
+               position: absolute;
+               top: 0;
+               left: 0;
+               width: 100%;
+               height: 100%;
+               border: 0;
+             "
+             allowfullscreen=""
+             loading="lazy"
+             referrerpolicy="no-referrer-when-downgrade"
+           ></iframe>
          </div>
-      </section>
-      <!-- End Hero -->
-
-      <main id="main">
-
-        <!-- ======= how_to_reach Section ======= -->
-         <section id="how_to_reach" class="how_to_reach">
-            <div class="container" >
-               <div class="section-title" >
-                  <h2>Namma Mysuru</h2>
-                  <p>
-                     Mysore, officially Mysuru  is the second-most populous city in the southern Indian state of Karnataka. It is the headquarters of Mysore district and Mysore division. As the traditional seat of the Wadiyar dynasty, the city functioned as the capital of the Kingdom of Mysore for almost six centuries (1399 to 1947). 
-                     Known for its heritage structures, palaces (such as the famous Mysore Palace), and its culture, Mysore has been called the "City of Palaces", the "Heritage City", and the "Cultural Capital of Karnataka". It is one of the cleanest cities in India according to the Swachh Survekshan.
-                     
-                     Mysore is situated at the foothills of the Chamundi Hills. At an altitude of 770 m (2,530 ft) above mean sea level, the city of Mysore is geographically located at 12° 18′ 26″ north latitude and 76° 38′ 59″ east longitude. It is about 140 km southwest of the state's capital, 
-                     Bangalore, and spreads across an area of 156 km (City + neighbouring census towns). The population of the city combined with its neighbouring towns in its metropolitan area is about 1,288,000 in 2023.
-
-                     Most of the city's development during modern times could be attributed to the maharajas of Mysore and the Wadiyar dynasty, who were patrons of art and culture. Hyder Ali and Tipu, when they were briefly in power in succession, also contributed significantly to the economic growth of the city and the kingdom by planting 
-                     mulberry trees and silk in the region, and fighting four wars against the British. In present days, the Mysore City Corporation is responsible for the civic administration of the city. 
-
-                     During the Dasara festivals, Mysore receives hundreds of thousands of tourists from around the world. The city is also the namesake to various art forms and culture, such as Mysore Dasara and Mysore painting; foods such as the sweet delicacy Mysore Pak, breakfasts like Mysore Dosa and Mysore Masala Dosa; brands such as Mysore Sandal Soap, Mysore Paints;
-                     and styles and cosmetics such as Mysore Peta, a traditional silk turban, and the Mysore silk saris. Mysore is also known for betel leaves and its own special variety of jasmine flower fondly referred to as "Mysore Mallige". Tourism is a lifeline industry for the city alongside the traditional industries. Mysore's intracity public transportation includes bus and intercity public transportation includes rail, bus, and air.
-
-
-                     Mysore, often referred to as the City of Palaces, is a popular tourist destination in the southern state of Karnataka. Travellers prefer exploring this city for its rich culture, magnificent palaces and vibrant art scene. Among the top attractions in the city are Mysore Palace, Mysore Zoo, Sri Chamundeshwari Devi Temple, Karnaji Lake, Ranganathittu Bird Sanctuary, Sri Nandi Temple, Daria Daulat Bagh and St Philomena’s Cathedral.
-                     Besides leisure travellers, Mysore is also frequented by businesspersons on a regular basis as it is the second largest software exporter in Karnataka after Bangalore. Several top IT companies like Infosys, Larsen & Toubro Infotech and Excelsoft Technologies are present here.
-                  </p>
-               </div>
-               <div class="section-title">
-                  <h2>How to reach</h2>
-                  <p>
-                     Mysore is one of the more well-connected cities in Karnataka and is accessible through road, rail and air. Although Mysore has its own airport, it is not fully functional and doesn't connect to all major cities. So tourists can access Mysore through the Bangalore airport (170km). Getting on a train to the Mysore railway station is a very convenient way of travel as daily trains ply here. Bus services are also regularly running and finding a seat is never a problem.
-                  </p>
-               </div>
-               <div class="row">
-                  <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                     <div class="icon-box iconbox-blue">
-                        <div class="icon">
-                           <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
-                           </svg>
-                           <i class="bx bxl-dribbble"></i>
-                        </div>
-                        <h4><a href="">Train</a></h4>
-                        <p>Mysore Junction (MYS), officially called Mysuru Junction, is the main railway station serving the city. It falls on the Mysore-Bangalore railway line and operates both short and long distance trains to a number of cities including Chennai, Delhi and Mangalore. Public transport like buses and rickshaws are readily available at the railway station for travellers to reach their desired destination.
-                           
-                           Major train stations in Mysore: Mysore Junction (MYS), Ashokapuram (AP)
-
-                        </p>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-                     <div class="icon-box iconbox-orange ">
-                        <div class="icon">
-                           <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
-                           </svg>
-                           <i class="bx bx-file"></i>
-                        </div>
-                        <h4><a href="">Road</a></h4>
-                        <p>Roadways is among the most preferred ways to enter Mysore as it has a well-maintained network of expressways and highways, connecting the city to different parts of South India. Some of the major thoroughfares passing through the city are NH 275, NH 766 and NH 150A. For travellers who wish to reach the city via bus, Mysore City Bus Stand is the main gateway.
-
-                           Interstate bus terminal and major bus station of Mysore: KSRTC Bus Stand
-                        </p>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-                     <div class="icon-box iconbox-pink">
-                        <div class="icon">
-                           <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
-                           </svg>
-                           <i class="bx bx-tachometer"></i>
-                        </div>
-                        <h4><a href="">Air</a></h4>
-                        <p>Mysore Airport (MYQ) is the main air gateway to the city, operating direct flights to major cities like Bangalore, Hyderabad, Chennai, Goa and Kochi. Some of the airlines operating from Mysore Airport are Alliance Air, IndiGo and TruJet. From other cities across the country and the world, Kempegowda International Airport (BLR) is the nearest entry point to Mysore for air travellers. From thereon, one can take a public transport like bus or hire a private taxi to reach different parts of Mysore.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-        <!-- End how_to_reach Section -->
-
-         <!-- ======= tourism Section ======= -->
-         <section id="tourism" class="tourism section-bg">
-            <div class="container" data-aos="fade-up">
-               <div class="section-title">
-                  <h2>Places to visit in Mysuru</h2>
-               </div>
-               <div class="row">
-                  <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                     <ul id="tourism-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-summer">Summer</li>
-                        <li data-filter=".filter-winter">Winter</li>
-                        <li data-filter=".filter-rainy">Rainy</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="row tourism-container" data-aos="fade-up" data-aos-delay="200">
-                  <!-- Copy this div for summer -->
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Brindavan Gardens</h4>
-                           <p>Winter + Rainy
-                              The Brindavan Gardens is a garden located 12 k.ms from the city of Mysore in the Mandya District of the Indian State of Karnataka.
-                              It lies adjoining the Krishnarajasagara Dam which is built across the river Kaveri. The work on laying out this garden was started in the year 1927 and completed in 1932. Visited by close to 2 million tourists per year, the garden is one of the major attractions of Srirangapatna. Sir Mirza Ismail, the Deewan of Mysore, a man with a penchant for gardens, founded the Brindavan Gardens (Krishnaraja Sagar Dam in particular) and built the Cauvery River high-level canal to irrigate 120,000 acres (490 km2) in modern Mandya district. The gardens were designed by German botanist and landscape designer Gustav Hermann Krumbiegel.
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- Summer end here -->
-                  <!-- For rainy -->
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Chamundi Hills</h4>
-                           <p>All 
-                              Named after the Goddess Chamundi, the Chamundeshwari Temple sits atop the main hill.[1] The main hill itself features an ancient stone stairway of 1,008 steps leading to its summit. Approximately halfway to the summit is statue of bull Nandi, the vahana, or "vehicle" of Lord Shiva, which is 4.9 m tall and 7.6 m long and carved out of a single piece of black granite. Around this point, the steps become significantly less steep and eventually the climber is rewarded with a panoramic view of the city.
-                              The Temple has a quadrangular structure. A key feature is the statue of Mahishasura bearing a sword in his right hand and a cobra in the left. Within the temple's sanctum stands a sculpted depiction of Chamundeshwari. She is seated with her right heel pressed against the lowest of the seven chakras. This cross-legged yogic posture echoes the posture of Lord Shiva. Worshipers believe that this powerful yogic posture, if mastered, provides an added dimensional view of the universe. During the rule of Wadiyars of Mysore, the Maharaja was seated in the golden howdah atop the elephant during Vijayadashami (tenth day of Dasara) procession. Post-independence, the Maharaja was replaced by an idol of Chamundeshwari, while the Dasara into a State festival.
-                              From the peak of the Chamundi hills, the Mysore Palace, the Karanji Lake and several smaller temples are visible. 
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Ranganathittu Bird Sanctuary</h4>
-                           <p>Rainy
-                              Ranganathittu Bird Sanctuary (also known as Pakshi Kashi of Karnataka), is a bird sanctuary in the Mandya District of Karnataka in India.
-                              It is the largest bird sanctuary in the state, 40 acres (16 ha) in area, and comprises six islets on the banks of the Kaveri river. The sanctuary has been designated on 15 February 2022 as a protected Ramsar site since 2022. 
-                              Ranganathittu is located 3 km (1.9 mi) from the historic town of Srirangapattana and 16 km (9.9 mi) north of Mysore. The sanctuary attracted about 3 lakh visitors during 2016–17.
-
-                              Ranganathittu's islets were formed when an embankment across the Kaveri river was built between 1645 and 1648 by the then king of Mysore, Kanteerava Narasimharaja Wadiyar. These islets, originally numbering 25, soon started attracting birds.
-                              The ornithologist Salim Ali observed that the islets formed an important nesting ground for a large variety of birds, and persuaded the king of Mysore to declare the area a protected area in 1940. The sanctuary is currently maintained by the Forest Department of Karnataka and efforts are ongoing 
-                              to improve the sanctuary, including purchasing nearby private land to expand the protected area. In 2014, around 28 square km around the sanctuary was declared as an eco-sensitive zone, meaning that certain commercial activities cannot take place without the government's permission.
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-rainy">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/clocktower.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>GRS Fantasy Park</h4>
-                           <p>Summer
-                              The GRS Fantasy Park is a combination theme park and water park near the city of Mysore that includes attractions for all ages. Highlights include a rock-climbing wall, a wave pool, a multi-tube water slide, and a watery dance floor. The park is a particularly welcome spot for families looking to get away from the city on hot days.
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/chickgadiyara.png" data-gallery="tourismGallery" class="tourism-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- rainy end here -->
-                  <!-- winter start -->
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Mysore Palace</h4>
-                           <p>All
-                              Mysore Palace, also known as Amba Vilas Palace, is a historical palace and a royal residence (house). It is located in Mysore, Karnataka, India. It used to be the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore. The palace is in the centre of Mysore, and faces the Chamundi Hills eastward. Mysore is commonly described as the 'City of the Palaces', and there are seven palaces including this one. However, the Mysore Palace refers specifically to the one within the new fort.
-                              The land on which the palace now stands was originally known as mysuru (literally, "citadel"). The first palace inside the Old Fort was built in the 14th century, which was set ablaze and reconstructed multiple times. The Old Fort was built of wood and thus easily caught fire, while the current fort was built of stone, bricks and wood. The current structure was constructed between 1897 and 1912, after the Old Palace burnt down, the current structure is also known as the New Fort. Mysore Palace is one of the most famous tourist attractions in India, after the Taj Mahal, with more than six million annual visitors.
-
-                              The last palace, now known as the Old Palace or the Wooden Palace, burned to ashes during the wedding of Jayalakshammani, the eldest daughter of Chamaraja Wodeyar in 1896. Maharaja Krishnaraja Wodeyar IV and his mother Maharani Kempananjammanni Devi commissioned the British architect Henry Irwin to build a new palace. E.W. Fritchley worked as a consulting Engineer. Meanwhile, the royal family stayed in the nearby Jaganmohan Palace. Construction was overseen by an executive engineer in the Mysore Palace division. He conducted elaborate architectural studies during his visits to Delhi, Madras, and Calcutta, and these 
-                              were used to plan the new palace. The construction cost was placed at Rs 41,47,913 (around $30 million adjusted to inflation) and the palace was completed in 1912. The palace was further expanded in around 1930 (including the addition of the present Public Durbar Hall wing) during the reign of Maharaja Jayachamarajendra Wadiyar.
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Karanji Lake</h4>
-                           <p>All
-                              Karanji Lake is a lake located in the city of Mysore in the state of Karnataka, India. The lake is surrounded by a nature park consisting of a butterfly park and a walk-through aviary. 
-                              This aviary is the biggest 'walk-through aviary' in India. There is also a museum, the Regional Museum of Natural History which is located on the banks of this lake. The total area of Karanji lake is 90 hectares. While waterspread area is 
-                              about 55 hectares, the foreshore area measures about 35 hectares. Karanji lake is owned by the Mysore Zoo Authority. Mysore Zoo gets a revenue of an average of Rs. 50000 per day from ticket sales to enthusiasts who visit this lake.
-
-                              Karanji Lake was one of the favourite haunts of migratory birds like herons and egrets. But the lake started getting polluted when sewage from the nearby residential areas were let into the lake. This pollution led to the destruction of aquatic life in the lake and with the food-source getting depleted, the migratory birds started to avoid the lake.
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Sri Chamarajendra Zoological Gardens (Mysore Zoo)</h4>
-                           <p>All
-                              Mysore Zoo officially known as Sri Chamarajendra Zoological Gardens, is a composite of zoological gardens and animal park located in the southern Indian city of Mysore, Karnataka. Stretching across a 157-acre (64 ha)-expanse and situated at about 700 metres (0.43 miles) from Mysore Palace, it is the oldest zoo in India and one of the oldest in the world.
-                              One of the most popular zoos in India and one of the city's most popular attractions, it is home to a wide range of over 168 species.
-
-                              Mysore Zoo was created from the private menagerie of Chamaraja Wadiyar X, the twenty-third Maharaja of Mysore. in 1892, on 10 acres of the Summer Palace. Over the next 10 years, the zoo was expanded to 45 acres with spacious enclosures that are still in use. Chamaraja Wadiyar X, the founder of the zoological gardens Originally called the Palace Zoo, it was renamed "Chamarajendra Zoological Gardens" in 1909. A.C. Hughes, from South Wales,
-                              was the zoo's first superintendent, serving from 1892 to 1924. Hughes, Sir Mirza Ismail, and G.H. Krumbiegel worked towards refashioning the zoo and updating it with modern, natural enclosures. It now features a bandstand and an artificial lake. In 1948, management of the zoo was devolved to the Department of Parks and Gardens, Government of Mysore. The zoo was expanded first with another 50 acres , and 
-                              then another 150 acres with the acquisition of the Karanji Tank, in which an artificial island has been created as a sanctuary for birds. In 1972, the zoo was entrusted the Forest Department and later in 1979 to the Zoo Authority of Karnataka, the first autonomous organisation in India to manage a zoo. The zoo had completed 100 years in 1992. The centenary celebrations were held in 1990 and 91. During the centenary celebrations various 
-                              developmental activities were initiated such as renovation and modification of the entrance gate, hospital building, walkthrough reptiles, etc. A bust of Chamaraja Wadiyar X was unveiled. The logo of the zoo, centenary souvenir, publication of literature and leaflets, conducting various competitions, preparation of a documentary film were other highlights.
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Krishna Raja Sagara</h4>
-                           <p>Rainy + All
-                              Krishna Raja Sagara, also popularly known as KRS, is a lake and the dam that creates it. They are close to the settlement of Krishna Raja Sagara in the Indian State of Karnataka. The gravity dam made of surki mortar is below the confluence of river Kaveri with its tributaries Hemavati and Lakshmana Tirtha, in the district of Mandya.
-                              Krishna Raja Wadiyar IV Maharaj of Mysore constructed the dam during the famine despite the critical financial condition in State. It was after him that the dam was named. There is an ornamental garden, Brindavan Gardens, attached to the dam. The region of Mysore and especially Mandya had historically been dry and had witnessed mass migration to adjoining areas in the hot summers. A severe drought in 1875–76 partly due to the British Government in India had wiped out one-fifth of the population of the Kingdom of Mysore. Crop failures were common due to lack of water for irrigation.[5] The Kaveri river was seen as a potential source of irrigation water for the farmers in and around Mysore in the erstwhile Kingdom of Mysore
-
-                              Foundation Stone to dam was laid on 11 November 1911. The dam was built across the river Kaveri in 1924. It is the main source of water for the districts of Mysore. The water is used for irrigation in Mysore and Mandya, and it is the main source of drinking water for all of Mysore, Mandya and almost the whole of Bengaluru city, the capital of Karnataka. The water released from this dam flows into the state of Tamil Nadu and is stored in Mettur dam in the Salem district.
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Chamundeshwari Temple</h4>
-                           <p>All
-                              The Chamundeshwari Temple is a Hindu temple located on the top of Chamundi Hills about 13 km from the palace city of Mysuru in the state of Karnataka in India. The temple was named after Chamundeshwari or, the fierce form of Shakti, a tutelary deity held in reverence for centuries by the Maharaja of Mysuru. 
-                              Chamundeshwari is called by the people of Karnataka as Nada Devi (ನಾಡ ದೇವಿ), which means state Goddess. It is situated at the elevation of around 3300 ft from the mean sea level. It is believed that Goddess Durga slayed the demon king Mahishasura on the top of this hill which was ruled by him. The place was later known as Mahishooru (Place of Mahisha).
-                              The British changed it to Mysore and later Kannadized into Mysuru. 
-
-                              The original shrine is thought to have been built in the 12th century by the Rulers of the Hoysala Dynasty while its tower was probably built by the Rulers of the Vijayanagara Empire in the 17th century. In 1659, a staircase of one thousand steps was built leading up to the 3000-foot summit of the hill. At the temple are several images of Nandi (the bull mount of Shiva). There is a huge granite Nandi on the 700th step on the hill in front of a 
-                              small Shiva temple a short distance away. Believed to be sculpted in the 2nd century CE, this Nandi is over 15 feet high and 24 feet long with exquisite bells around its neck. The temple is famous for the celebrations of festivals like Ashada Shukravara (ಆಶಾಡಾ ಶುಕ್ರವಾರ), Navaratri and Ammanavara Vardhanthi (ಅಮ್ಮನವರ ವರ್ಧಂತಿ). In the month of Ashadha, Fridays are considered particularly auspicious. Lakhs of devotees throng the temple during this occasion. Another festival celebrated during this 
-                              month is Chamundi Jayanti. This day is celebrated on the anniversary of the consecration of the Utsava Moorti of the goddess by the Maharaja of Mysore. On this occasion, the goddess's idol is taken around the temple in a golden palanquin. The most important festival that is celebrated here is Navaratri. Mysuru Dasara is celebrated as the state festival of Karnataka, called Nada habba (ನಾಡಾ ಹಬ್ಬಾ) in Kannada. During Navaratri, the idol is decorated in 9 different ways to depict the nine different aspects of the goddess known as Navadurgas.
-                              On the 7th day of Navaratri that is dedicated to the goddess Kalaratri, valuable jewels donated by Maharajas are brought from the District Treasury of Mysuru and are given to the temple to decorate the idol.
-                              
-                              Another temple is situated at the foothill which is in Utthanahalli called as Jwalamalini Sri Tripura Sundari Temple. This goddess is considered the sister of Chamundeshwari who helped her at the battlefield to slay the demon Raktabīja.
-
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Mysore Dasara</h4>
-                           <p>Rainy
-                              Mysore Dasara is the Nadahabba (state festival) of the state of Karnataka in India. It is a 10-day festival, starting with nine nights called Navaratri and the last day being Vijayadashami. The festival is observed on the tenth day in the Hindu calendar month of Ashvina, which
-                              typically falls in the Gregorian months of September and October. The Hindu festival of Navaratri and its occasion of Vijayadashami celebrates the victory of good over evil. According to Hindu mythology, it commemorates the day the goddess Chamundeshwari (Durga) slew the demon Mahishasura. Mahishasura is also believed to be the demon whose slaying by 
-                              the goddess gave the city the name Mysuru. The Mysuru tradition celebrates the warriors and the state fighting for the good during this festival, ritually worshipping and displaying the state sword, weapons, elephants, horses, along with the goddess in her warrior form (predominantly) as well as the avatar of Vishnu, Rama. The ceremonies and a major procession is 
-                              traditionally presided by the king of Mysuru. The city of Mysuru has a long tradition of celebrating the Dasara festival with grandeur and pomp to mark the festival. The Dasara festival in Mysuru completed 409th anniversary in the year 2019, while evidence suggests the festivities were observed in Karnataka state by the Vijayanagara Empire kings in the 15th century.
-
-
-                              The festivities included a special durbar (royal assembly). It was during the reign of Krishnaraja Wodeyar III in the year 1805, when the king started the tradition of having a special durbar in the Mysore Palace during Dasara; which was attended by members of the royal family, special invitees, officials and the masses. After the death of Srikanta Wadiyar in December 2013, Dasara celebration in 2014 was celebrated by 
-                              placing the "Pattada Katti" (royal sword) on the golden throne. But since his accession to the throne in 2015, Maharaja Yaduveer Krishnadatta Chamaraja Wadiyar have been holding the Dasara celebration and durbar. The ninth day of Dasara called as Mahanavami is also an auspicious day on which the royal sword is worshipped and is taken on a procession involving elephants, camels and horses.
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-winter">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/chickgadiyara.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Lalitha Mahal</h4>
-                           <p>All
-                              The Lalitha Mahal, now renamed Lalitha Mahal Palace Hotel, is a luxury hotel located in a former royal residence, and the second largest palace in the southern Indian city of Mysore, Karnataka, after the Mysore Palace. It is located near the Chamundi Hills, east of the city. The palace was built in 1921 by Maharaja Krishnaraja Wodeyar IV for the exclusive stay of the Governor-General of India.
-                              Built on a raised ground, the palace was fashioned on the lines of St Paul's Cathedral in London and is one of the imposing structures in Mysore. The palace is painted pure white. It was converted into a heritage hotel in 1974. It was run as a part of the Ashok Group of the India Tourism Development Corporation (ITDC) under the Government of India until 2018 when it was transferred to a unit of the Government of Karnataka.
-                              However, a veneer of the original royal ambience of the palace is maintained.
-
-
-                              The Lalitha Mahal palace dates to the early 20th century, built during the Kingdom of Mysore and British India. The palace was constructed with a reasonable amount of money out of the kingdom's annual income of two million pounds at that time. The palace was built in 1921 initially for the exclusive stay of the Governor-General of India and subsequently used as a guest house for European guests of the Maharaja
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/circle-2.png" data-gallery="tourismGallery" class="tourism-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Jaganmohan Palace</h4>
-                           <p>All
-                              Sri Jayachamarajendra Art Gallery, commonly known by its former name Jaganmohana Palace, is a royal mansion, arts museum and auditorium, and formerly an alternative royal residence of the ruling maharaja of Mysore, located in Mysore, India, about 200m (600ft) to the west of Mysore Palace. 
-                              Began in 1856 and completed in 1861, the palace is one of the oldest modern structures in Mysore. The royal family would reside at the palace when renovations and construction works would be underway at Mysore Palace. The last time the palace was inhabited by the royal family was in 1897 when the old Mysore Palace burned down due 
-                              to a fire accident. The ruling king at this time was Maharaja Krishnaraja Wadiyar IV. 
-
-                              Over the Nagar uprising of 1830, Maharaja Krishnaraja Wodeyar III was deposed and the Mysore Commission was instituted. At the same time, Mysore Palace was seized from the maharaja by the commission. In these circumstances, the deposed maharaja commissioned the building of a large mansion, with several public and private courtyards, for the use of his family and retainers at 
-                              a site which was a short distance from the grounds of his old palace. Whereas the old palace looked like a stone citadel from outside but was mainly made of wood inside, the new palace was designed to have a lighter, more modern look and a more comfortable internal layout. It was thus built with brick and mortar, reflecting many architectural embellishments, often made of valuable woods and precious stones.
-                              After the commission was dissolved by the rendition of Mysore in 1881, the kingdom was restored to the next in line to the throne, Yuvaraja Chamarajendra Wadiyar X. The royal family moved to the old Mysore Palace, but Jaganmohan Palace continued to be used for ceremonial purposes and royal programmes (such as soirées of music, dance and poetry), presided over by the maharaja.
-
-                              In 1896, during the wedding celebrations of Princess Jayalakshmi Devi, the eldest sister of the ruling maharaja Krishnaraja Wadiyar IV, the old palace caught fire and was very seriously damaged. The decision was taken to demolish that structure completely and build a new palace. The construction of a new palace began in 1897 and lasted until 1912. During this interval, Jaganmohan Palace once again became the primary residence of the maharaja and his family.
-                              Both personal and official ceremonies, including the maharaja's coronation in 1902 by Marquess George Curzon, the Governor-General of India, the maharaja's daily durbar, and major ceremonies connected to Mysore Dasara would be held there. The first session of Mysore Representative Council was also held here in July 1907, presided over by Dewan V. P. Madhava Rao. The early convocations of the Mysore University were also held in this palace. In 1915, Maharaja Krishnaraja Wadiyar IV converted the palace into an art gallery. 
-
-                              In 1950, Maharaja Jayachamarajendra Wadiyar placed the palace under a trust and opened it for public viewing. In 1955, by which time the Kingdom of Mysore had been subsumed into the Republic of India, the art gallery was enlarged with gifts of many precious articles by the maharaja. In 1980, Prince Srikantadatta Narasimharaja Wadiyar renamed the palace Sri Jayachamarajendra Art Gallery in his father's honour. The palace is overseen by Pramoda Devi Wadiyar, the queen mother. 
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>St. Philomena's Cathedral, Mysore</h4>
-                           <p>Winter + All
-                              St. Philomena's Cathedral is a Catholic church that is the cathedral of the Diocese of Mysore, India. The full name is the Cathedral of St. Joseph and St. Philomena. It is also known as St. Joseph's Cathedral. It was constructed in 1936 using a Neo Gothic style and its architecture was inspired by the Cologne Cathedral in Germany. This is one of the tallest churches in Asia. 
-
-                              A church at the same location was built in 1843 by Maharaja Mummadi Krishnaraja Wodeyar. An inscription which was there at the time of laying the foundation of the present church in 1933 states: "In the name of that only God - the universal Lord who creates, protects, and reigns over the universe of Light, the mundane world and the assemblage of all created lives - this church is built 1843 years after the
-                              incarnation of Jesus Christ, the Enlightenment of the World, as man". In 1926, Sir T. Thumboo Chetty who was the Huzur Secretary to the Maharaja of Mysore, Nalvadi Krishnaraja Wodeyar obtained a relic of the Saint from Peter Pisani, Apostolic Delegate of the East Indies. This relic was handed over to Father Cochet who approached the king to assist him in constructing a church in honour of St. Philomena.
-                              The Maharaja of Mysore laid the foundation stone of the church on 28 October 1933. In his speech on the day of the inauguration, he said: "The new church will be strongly and securely built upon a double foundation — Divine compassion and the eager gratitude of men."[8] The construction of the church was completed under Bishop Rene Feuga's supervision. The relic of Saint Philomena is preserved in a catacomb below the main altar.
-                              This church is a good example of blending of local culture. Some of the female statues are dressed with local traditional dress, Saree. 
-
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Srikanteshwara Temple, Nanjangud</h4>
-                           <p>All
-                              The Nanjundeshwara Temple (also called Srikanteshwara Temple) is an ancient temple dedicated to Shiva in the Hindu pilgrimage town of Nanjanagudu in Karnataka, India. It is located on the right bank of the Kapila River, a tributary of the Kaveri River. Nanjanagudu is also known as "Dakshina Kashi" or "Kashi of South".
-                              Nanju in Kannada means "to poison". The name Nanjundeshwara means the "God who Drank the Poison" (halāhala, a word that has its origins in the legend of the Great Churning of the Ocean of Milk); thus, the town got the name "Nanjanagudu" which means "the abode of the god Nanjundeshwara".
-                              The temple's Dodda Jaathre festival attracts thousands of devotees. The festivities in the fair include five colorful chariots pulled by devotees on a path called the ratha beedi. Parasurama Temple is near Nanjundeshwara Temple.
-                              The nine-storied, 120-foot-tall temple gopuram (gateway tower) and its extensive exterior was built by Devarajammanni, the queen of the Mysore king Krishnaraja Wadiyar III.
-
-
-
-                              Nanjungud is mentioned as Sri Garalapuri, in the Shiva Purana.[9] It is said that the legendary holy place is the abode of Shiva in southern India. It is also referred to as "Dakshina Kasi", where the god appeared at the plea of his devotees, the Devas, and sage Narada. The demon Keshi obtained a boon from Brahma and Vishnu by which they would not be able to kill him. 
-                              He assumed that with this boon, he was as good as immortal and began troubling the people, the Devas, and the sages. At last, Narada and the Devas pleaded with Shiva to save everyone. He appeared in Garalapuri Sri Kshetra (present Nanjungud) and killed Keshi. He further assured that his Ansh (a part of his divine self) would always remain here and bless humanity; the place henceforth 
-                              would be a papa vinashini ('remover of sins'). After bathing in the holy river of Kabini, every human praying to Lord Srikanteshwara or Nanjundeshwara (Shiva) of Nanjungud would be rid of sins and blessed by the god. 
-
-                              Sage Parashuram, after beheading his mother as per his father Sage Jamadagni's orders, wanted to undo his sins from "Matru Hatya" (his mother's murder). Per Narada's advice, he reached Garalapuri (Nanjangud) and prayed to Sri Nanjundeshwara Swamy. Shiva appeared and advised him to build a mantapa and perform pooja to the Shivlinga. While clearing the shrubs with his parashu (axe), Parashuram's axe unintentionally
-                              hit the Shivlinga, and the tip of the Shivlinga began to bleed. Sage Parashuram felt very guilty and said, "I have committed another unforgivable sin; only by killing myself shall I be relieved from all my sins", and prepared to kill himself. Shiva appeared and blessed Sage Parashuram and told him to apply wet mud upon the Shivlinga (the mud of Sri Nanjangud has immense healing powers). The Shivlinga stopped bleeding. 
-                              Lord Shiva advised Parashuram to build the mantapa and continue his penance. Finally, Sage Parashuram was relieved from all his sins and blessed with immortality. 
-
-                              The Goddess Parvati, consort of Shiva, wanted to visit this holy place, and so he brought her to Garalapuri Nanjangud. When she went to the Kabini River and bent down to touch the water, a gemstone bead (mani) fell off from her crown into the water. Lord Shiva was pleased and declared, "Devi, until now, the place had my divine blessings and presence; from this moment, it shall have your presence, grace and blessings, too. It shall also be called Dakshina Manikarnika Ghat". 
-                              During the reign of King Tipu Sultan, his royal elephant became blind. As per the advice of his minister, Sri Poornayya, Tipu sent the elephant to the Nanjundeshwara Swamy Temple and performed 48 days of rituals. On the 48th day, the elephant's vision was restored. Tipu Sultan offered the emerald green Shivlinga as a token of gratitude to Sri Nanjundeshwara Swamy and called Lord Shiva "Hakim Nanjunda" (healer).
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Shivanasamudra Falls</h4>
-                           <p>Rainy
-
-                              Shivanasamudra Falls is a cluster of waterfalls on the borders of Malavalli, Mandya and Kollegala, Chamarajanagara, in Karnataka, India, situated along the river Kaveri. The falls form the contour between the districts of Chamarajanagara and Mandya. The Bharachukki Falls in Kollegala, with a height of 69 metres, and the Gaganachukki Falls in Malavalli, with a height of 90 metres, collectively form the Shivanasamudra Falls.
-                              Shivanasamudra Falls is home to one of the first hydro-electric power stations in Asia, which was set up in 1902. The project was designed by Dewan Sir. Sheshadri Iyer and Chief Engineer Sir M. Visvesvaraya. 
-
-                              The Shivanasamudra Falls is on the Kaveri River after the river has found its way through the rocks and ravines of the Deccan Plateau and drops off to form waterfalls. The island town of Shivanasamudra divides the river into twin waterfalls. This creates the fourth largest island in the course of the river.[citation needed] A group of ancient temples is located here and there likely was a village.
-                              This is a segmented waterfall. Segmented waterfalls occur where the water flow is broken into two or more channels before dropping over a cliff, resulting in multiple sides by side waterfalls. It has an average width of 305 metres (1,001 ft), a height of 98 m (322 ft), and an average volume of 934 cubic metres per second (33,000 cu ft/s). The maximum recorded volume is 18,887 cubic metres per second (667,000 cu ft/s).
-                              It is a perennial waterfall. The time of best flow are the monsoon season of July to October.
-
-
-                              Sri Ranganathaswamy Temple located here is built in the Dravidian style of architecture. Sri Ranganathaswamy here is also referred to as "Madhya Ranga", who is highly revered by Sri Vaishnava devotees among others. Among all the three Rangas, the deity here is believed to represent the youth form of God and hence is also fondly referred to as 'Mohana Ranga' and 'Jaganmohana Ranga'. Madhya Ranga is an ancient temple housing a beautiful idol, yet being located remotely sees few visitors. 
-                              The temple often remains closed to visitors as the local priest is not punctual, and the Karnataka government temple authority has done little to maintain and promote this place. The Shivanasamudra temple is one of the three temples of the God Ranganatha (Madhya Ranga) that are situated in the natural islands formed in the Kaveri river.
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Nandi Temple</h4>
-                           <p>All
-                              
-                              The Bull Temple, also known as Nandi Temple, is one of the oldest temples in the city of Bengaluru. The temple is popularly called as 'Dodda Basavana Gudi' by the locals and is the biggest temple dedicated to Nandi in the world. Nandi, the bull, is the mount or 'vahana' of Lord Shiva and the guardian deity of Lord Shiva's abode, Kailashagiri; according to Hindu traditions. This temple is every Shiva devotee's must-visit destination because Nandi holds great importance to Lord Shiva.
-                              The architectural style of the Bull Temple is mainly Dravidian and was constructed by Kempe Gowda. It is believed that the origin of the river Vrishabhavati is at the feet of Nandi. The entire sculpture of the bull is carved out of one single granite rock. The statue is 4.5 meters high and 6.5 meters long. Coconut oil, butter and 'benne' are regularly applied to this statue. This had led to the originally grey statue to turn black.
-                              On the premises of the Bull Temple, there is also a beautiful temple of Ganesh, the beloved son of Lord Shiva. An interesting fact about this temple is that the statue of Lord Ganesh is made entirely of butter! It takes about 110 kilos of butter to make this artistic statue, and a new statue is made every four years. What is really astonishing and noteworthy is that in the four-year tenure of each butter sculpture, the butter doesn't melt or change shape even once. The butter that makes the statue of the deity is then distributed to the devotees as prasad. 
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Railway Museum</h4>
-                           <p>All
-                              
-                              The Railway Museum at Mysore, India is an outdoor exhibit of vintage locomotives. 
-                              The Railway Museum was established in 1979 by Indian Railways, the second such museum after the National Railway Museum in Delhi. The museum is opposite the Central Food Technology and Research Institute on Krishnaraja Sagar Road. It has locomotives and a gallery of photographs and paintings depicting the growth of railways in India. Railway signals and lights are also displayed. The museum has a battery-operated mini-train giving a short ride for children on the grounds.
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 tourism-item filter-summer">
-                     <div class="tourism-wrap">
-                        <img src="assets/img/tourism/jaganmohan.png" class="img-fluid" alt="">
-                        <div class="tourism-info">
-                           <h4>Chennakeshava Temple, Somanathapura</h4>
-                           <p>All
-                              
-                              The Chennakesava Temple, also referred to as Chennakeshava Temple and Keshava Temple, is a Vaishnava Hindu temple on the banks of River Kaveri at Somanathapura,Karnataka, India. The temple was consecrated in 1258 CE by Somanatha Dandanayaka, a general of the Hoysala King Narasimha III. It is located 38 kilometres (24 mi) east of Mysuru city.
-
-                              The ornate temple is a model illustration of the Hoysala architecture. The temple is enclosed in a courtyard with a pillared corridor of small shrines (damaged). The main temple in the center is on a high star-shaped platform with three symmetrical sanctums (garbha-griha), set in a square matrix (89' x 89') oriented along the east–west and north–south axes.
-                              The western sanctum was for a statue of Kesava (missing), the northern sanctum of Janardhana and the southern sanctum of Venugopala, all forms of Vishnu. The sanctums share a common community hall (sabha-mandapa) with many pillars. The outer walls, the inner walls, the pillars and the ceiling of the temple are intricately carved with theological iconography of 
-                              Hinduism and display extensive friezes of Hindu texts such as the Ramayana (southern section), the Mahabharata (northern section) and the Bhagavata Purana (western section of the main temple).
-
-                              The Chennakesava temple, states George Michell, represents the climax of the development in Hoysala temple style and yet is also unique in many ways.
-
-                              In 2023, the Somanathapura temple, along with the Hoysaleswara Temple at Halebidu and the Chennakeshava Temple at Belur, was declared a World Heritage Site by UNESCO as part of the Sacred Ensembles of the Hoysalas.
-                           </p>
-                           <div class="tourism-links">
-                              <a href="assets/img/tourism/ambari.png" data-gallery="tourismGallery" class="tourism-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="tourism-details.html" class="tourism-details-lightbox" data-glightbox="type: external" title="tourism Details"><i class="bx bx-link"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  
-                  <!-- winter end here -->
-               </div>
-            </div>
-         </section>
-         <!-- End tourism Section -->
-      </main>
-      <!-- End #main -->
-
-      <!-- ======= Footer ======= -->
-      <footer id="footer">
-         <div class="container">
-            <div class="copyright">
-               name : usn
-            </div>
+       </div>
+       <div class="col-md-6">
+         <div class="row">
+           <div
+             class="travel-cards col-md-5 mx-auto mb-3 rounded d-flex align-items-center p-3"
+             data-aos="fade-left"
+           >
+             <i class="fas fa-train fa-3x"></i>
+             Mysore Junction (MYS), also known as Mysuru Junction, is the
+             primary railway station in the city. Other stations include
+             Ashokapuram (AP).
+           </div>
+           <div
+             class="travel-cards col-md-5 mx-auto mb-3 rounded d-flex align-items-center p-3"
+             data-aos="fade-left"
+           >
+             Roadways are preferred for reaching Mysore. The city's main bus
+             gateway is Mysore City Bus Stand, with KSRTC Bus Stand serving
+             as the interstate terminal.
+           </div>
          </div>
-      </footer>
-      <!-- End Footer -->
-      <div id="preloader"></div>
-      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-      <!-- Vendor JS Files -->
-      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-      <script src="assets/vendor/aos/aos.js"></script>
-      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-      <script src="assets/vendor/typed.js/typed.umd.js"></script>
-      <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-      <script src="assets/vendor/php-email-form/validate.js"></script>
-      <!-- Template Main JS File -->
-      <script src="assets/js/main.js"></script>
-   </body>
+         <div class="row">
+           <div
+             class="travel-cards col-md-5 mx-auto mb-3 rounded d-flex align-items-center p-3"
+             data-aos="fade-left"
+           >
+             Mysore Airport (MYQ) serves direct flights to cities including
+             Bangalore, Hyderabad, Chennai, Goa, and Kochis. Kempegowda
+             International Airport (BLR) serves as the nearest entry point
+             from other cities.
+           </div>
+           <div
+             class="travel-cards col-md-5 mx-auto mb-3 rounded d-flex align-items-center neon-colored p-3"
+             data-aos="fade-left"
+           ></div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div data-aos="fade-down" class="border rounded p-2 mb-4" id="places">
+     <center>
+       <div class="heading col-md-4 rounded">
+         <h3 class="p-2 m-4 d-flex justify-content-center">
+           PLACES TO VISIT IN MYSURU
+         </h3>
+       </div>
+     </center>
+     <!-- ======= place Section ======= -->
+     <section id="place" class="place section-bg">
+       <div class="container" data-aos="fade-up">
+         <div class="row">
+           <div
+             class="col-lg-12 d-flex justify-content-center"
+             data-aos="fade-up"
+             data-aos-delay="100"
+           >
+             <ul id="place-flters">
+               <li data-filter="*" class="filter-active">All</li>
+               <li data-filter=".filter-summer">summer</li>
+               <li data-filter=".filter-monsoon">monsoon</li>
+               <li data-filter=".filter-winter">winter</li>
+             </ul>
+           </div>
+         </div>
+         <div
+           class="row place-container"
+           data-aos="fade-up"
+           data-aos-delay="200"
+         >
+           <!-- Brindvan Garden -->
+           <div class="col-lg-4 col-md-6 place-item filter-monsoon">
+             <div class="place-wrap">
+               <img
+                 src="./img/Brindavan-Garden.avif"
+                 class="img-fluid"
+                 alt=""
+               />
+               <div class="place-info">
+                 <h4>Brindavan Gardens</h4>
+                 <a href="./places/Brindavan Gardens.html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+           <!-- Chamundi hills -->
+           <div
+             class="col-lg-4 col-md-6 place-item filter-monsoon filter-winter filter-summer"
+           >
+             <div class="place-wrap">
+               <img
+                 src="./img/Chamundeshwari_Temple.jpg"
+                 class="img-fluid"
+                 alt=""
+               />
+               <div class="place-info">
+                 <h4>Chamundi Hills</h4>
+                 <a href="./places/Chamundi Hills.html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+           <!-- Ranganathittu Bird Sanctuary -->
+           <div class="col-lg-4 col-md-6 place-item filter-monsoon">
+             <div class="place-wrap">
+               <img src="./img/ranganatittu.jpg" class="img-fluid" alt="" />
+               <div class="place-info">
+                 <h4>Ranganathittu Bird Sanctuary</h4>
+                 <a href="./places/Ranganathittu Bird Sanctuary.html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+           <!-- GRS Fantasy Park -->
+           <div class="col-lg-4 col-md-6 place-item filter-summer">
+             <div class="place-wrap">
+               <img src="./img/grs.jpg" class="img-fluid" alt="" />
+               <div class="place-info">
+                 <h4>GRS Fantasy Park</h4>
+                 <a href="./places/GRS Fantasy Park.html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+           <!-- Mysore Palace -->
+           <div
+             class="col-lg-4 col-md-6 place-item filter-monsoon filter-winter filter-summer"
+           >
+             <div class="place-wrap">
+               <img src="./img/Mysore_Palace.jpg" class="img-fluid" alt="" />
+               <div class="place-info">
+                 <h4>Mysore Palace</h4>
+                 <a href="./places/Mysore Palace.html"><h5>Read More</h5></a>
+               </div>
+             </div>
+           </div>
+           <!-- Karanji Lake -->
+           <div
+             class="col-lg-4 col-md-6 place-item filter-monsoon filter-winter filter-summer"
+           >
+             <div class="place-wrap">
+               <img src="./img/Karanji.jpg" class="img-fluid" alt="" />
+               <div class="place-info">
+                 <h4>Karanji Lake</h4>
+                 <a href="./places/Karanji Lake.html"><h5>Read More</h5></a>
+               </div>
+             </div>
+           </div>
+           <!-- ZOO -->
+           <div
+             class="col-lg-4 col-md-6 place-item filter-monsoon filter-winter filter-summer"
+           >
+             <div class="place-wrap">
+               <img src="./img/zoo.jpg" class="img-fluid" alt="" />
+               <div class="place-info">
+                 <h4>Sri Chamarajendra Zoological Gardens (Mysore Zoo)</h4>
+                 <a
+                   href="./places/Sri Chamarajendra Zoological Gardens (Mysore Zoo).html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+           <!-- Krishna Raja Sagara -->
+           <div
+             class="col-lg-4 col-md-6 place-item filter-monsoon filter-winter filter-summer"
+           >
+             <div class="place-wrap">
+               <img
+                 src="./img/mysore-krs-dam.webp"
+                 class="img-fluid"
+                 alt=""
+               />
+               <div class="place-info">
+                 <h4>Krishna Raja Sagara</h4>
+                 <a href="./places/Krishna Raja Sagara.html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+           <!-- Lalitha Mahal -->
+           <div
+             class="col-lg-4 col-md-6 place-item filter-monsoon filter-winter filter-summer"
+           >
+             <div class="place-wrap">
+               <img
+                 src="./img/Lalitha-Mahal-Palace.jpg"
+                 class="img-fluid"
+                 alt=""
+               />
+               <div class="place-info">
+                 <h4>Lalitha Mahal</h4>
+                 <a href="./places/Lalitha Mahal.html"><h5>Read More</h5></a>
+               </div>
+             </div>
+           </div>
+           <!-- Jaganmohan Palace -->
+           <div
+             class="col-lg-4 col-md-6 place-item filter-monsoon filter-winter filter-summer"
+           >
+             <div class="place-wrap">
+               <img
+                 src="./img/Jaganmohan_Palace.JPG"
+                 class="img-fluid"
+                 alt=""
+               />
+               <div class="place-info">
+                 <h4>Jaganmohan Palace</h4>
+                 <a href="./places/Jaganmohan Palace.html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+           <!-- St. Philomena's Cathedral, Mysore -->
+           <div
+             class="col-lg-4 col-md-6 place-item filter-monsoon filter-winter filter-summer"
+           >
+             <div class="place-wrap">
+               <img
+                 src="./img/St._Philomena's_Church.jpg"
+                 class="img-fluid"
+                 alt=""
+               />
+               <div class="place-info">
+                 <h4>St. Philomena's Cathedral</h4>
+                 <a href="./places/St. Philomena's Cathedral.html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+           <!-- Srikanteshwara Temple, Nanjangud -->
+           <div
+             class="col-lg-4 col-md-6 place-item filter-monsoon filter-winter filter-summer"
+           >
+             <div class="place-wrap">
+               <img
+                 src="./img/Srikanteshvara_Temple.jpg"
+                 class="img-fluid"
+                 alt=""
+               />
+               <div class="place-info">
+                 <h4>Srikanteshwara Temple, Nanjangud</h4>
+                 <a href="./places/Srikanteshwara Temple, Nanjangud.html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+           <!-- Shivanasamudra Falls -->
+           <div class="col-lg-4 col-md-6 place-item filter-monsoon">
+             <div class="place-wrap">
+               <img src="./img/Barahachukki.jpg" class="img-fluid" alt="" />
+               <div class="place-info">
+                 <h4>Shivanasamudra Falls</h4>
+                 <a href="./places/Shivanasamudra Falls.html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+           <!-- Railway Museum -->
+           <div
+             class="col-lg-4 col-md-6 place-item filter-monsoon filter-winter filter-summer"
+           >
+             <div class="place-wrap">
+               <img
+                 src="./img/mysuru-railway-museum.jpg"
+                 class="img-fluid"
+                 alt=""
+               />
+               <div class="place-info">
+                 <h4>Railway Museum</h4>
+                 <a href="./places/Railway Museum.html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+           <!-- Chennakeshava Temple, Somanathapura -->
+           <div
+             class="col-lg-4 col-md-6 place-item filter-monsoon filter-winter filter-summer"
+           >
+             <div class="place-wrap">
+               <img src="./img/Somanathapura.jpg" class="img-fluid" alt="" />
+               <div class="place-info">
+                 <h4>Chennakeshava Temple, Somanathapura</h4>
+                 <a href="./places/Chennakeshava Temple, Somanathapura.html"
+                   ><h5>Read More</h5></a
+                 >
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+     <!-- End place Section -->
+     <!--  -->
+   </div>
+ </div>
+
+</body>
 </html>

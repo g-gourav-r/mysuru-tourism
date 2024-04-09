@@ -290,11 +290,13 @@ h3 {
 }
 
 .right-container {
-  height: 500px;
+  overflow-y: auto; /* Enabling overflow for y-axis */
+  max-height: 90%; /* Setting a max height for the container */
+  max-width: 49% !important;
 }
 
 .right-container-map {
-  height: 300px;
+  height: 400px;
 }
 
 footer {
@@ -304,3 +306,8 @@ footer {
 .contents-card{
   background-color: #edf2ee;
 }
+
+.content{
+  width: 90%;
+}
+
