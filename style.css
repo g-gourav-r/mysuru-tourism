@@ -53,7 +53,6 @@ h3 {
   background-color: hsla(50, 90%, 91%, 100%) !important;
 
   /* background-color: efbc9b; */
-  border: 1px solid #efbc9b;
 }
 .neon-colored {
   background-color: #d6dac8 !important;
@@ -301,4 +300,7 @@ h3 {
 footer {
   width: 90%;
   background-color: #d6dac8 !important;
+}
+.contents-card{
+  background-color: #edf2ee;
 }
